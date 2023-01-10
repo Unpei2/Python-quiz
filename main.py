@@ -35,9 +35,11 @@ if q4 == "the horse" or q4 == "horse" or q4 == "knight" or q4 == "the knight":
 else:
     print("Incorrect")
 
+# results
 print("YOUR RESULTS:")
 percent = str(score / 4 * 100)
 print(str(score) + " / 4 (" + percent + "%)")
+# feedback
 if score == 4:
     print("Excellent")
 elif score == 3:
