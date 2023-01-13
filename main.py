@@ -19,7 +19,7 @@ else:
 
 # q3
 print("How many small squares are on a chess board?")
-q3 = int(input())
+q3 = int(input("Q3 Answer: "))
 if q3 == 64:
     score += 1
     print("Correct")
@@ -28,7 +28,7 @@ else:
 
 # q4
 print("What is the only chess piece that can jump over other pieces?")
-q4 = str(input("Q1 Answer: ")).lower()
+q4 = str(input("Q4 Answer: ")).lower()
 if q4 == "the horse" or q4 == "horse" or q4 == "knight" or q4 == "the knight":
     score += 1
     print("Correct")
